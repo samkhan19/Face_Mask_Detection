@@ -19,10 +19,10 @@ The performance analysis includes an evaluation of the image complexity predicto
 # Implementation
 The implementation is carried out in Python using various libraries, including TensorFlow, OpenCV, and scikit-learn. The code includes both training and testing components.
 
-# -> Training
+# Training
 The model is trained using a dataset containing images of people with and without masks. Transfer learning is applied to a MobileNetV2 base model, and an additional head model is constructed for classification. The model achieves high accuracy (98.2%) and is saved for future use.
 
-# -> Testing
+# Testing
 The face mask detector is tested in real-time using a video stream. The face detector model and the trained mask detector model are loaded, and the system detects and classifies faces based on the presence or absence of masks.
 
 # Results and Outcomes
